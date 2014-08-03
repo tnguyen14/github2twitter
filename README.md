@@ -2,7 +2,7 @@
 
 > bot to publish github notifications to twitter
 
-![GH2TW Logo](logo.svg 'GH2TW Logo')
+![GH2TW Logo](https://cdn.rawgit.com/tnguyen14/github2twitter/master/logo.svg 'GH2TW Logo')
 
 This app check Github's [user's received events API](https://developer.github.com/v3/activity/events/#list-events-that-a-user-has-received) and publish any new event to a twitter account every 10 minutes. The app is meant to be run with Heroku. Once pushed to a heroku app, do the following:
 
