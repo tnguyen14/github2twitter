@@ -8,6 +8,8 @@ This app check Github's [user's received events API](https://developer.github.co
 - `heroku addons:add scheduler`
 - Schedule the scehduler to run `node lib/github2twitter.js` every 10 minutes.
 
+If there are more than 1 event to update, the updates are staggered out in 1 minute interval by default. This stagger interval can be changed through the environment variable.
+
 ### Environment Variables needed to run
 
 - `MONGOHQ_URL`
@@ -16,7 +18,7 @@ This app check Github's [user's received events API](https://developer.github.co
 - `TWITTER_CONSUMER_SECRET`
 - `TWITTER_ACCESS_TOKEN`
 - `TWITTER_ACCESS_TOKEN_SECRET`
-
+- `TWITTER_STAGGER` (optional, default to 60000 (1 minute))
 
 ## License
 
