@@ -1,0 +1,1 @@
+{{actor.login}} created {{payload.ref_type}} {{#if payload.ref}}{{payload.ref}}{{/if}} {{#isEqual payload.ref_type 'repository'}}{{repo.name}} {{else}} at {{/isEqual}} https://github.com/{{repo.name}}
