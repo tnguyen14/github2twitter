@@ -20,7 +20,9 @@
   ],
   "keywords": [
     "github2twitter",
-    ""
+    "github",
+    "twitter",
+    "bot"
   ],
   "devDependencies": {
     "grunt-contrib-jshint": "^0.10.0",

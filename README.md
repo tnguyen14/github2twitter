@@ -1,44 +1,19 @@
-# github2twitter [![Build Status](https://secure.travis-ci.org/tnguyen14/github2twitter.png?branch=master)](http://travis-ci.org/tnguyen14/github2twitter)
+# github2twitter
 
 > bot to publish github notifications to twitter
 
+The main entry file `lib/github2twitter.js` can be scheduled by a cron job to run every 5 minutes.
 
-## Getting Started
+### Environment Variables needed to run
 
-Install the module with: `npm install github2twitter`
-
-```js
-var github2twitter = require('github2twitter');
-github2twitter.awesome(); // "awesome"
-```
-
-Install with cli command
-
-```sh
-$ npm install -g github2twitter
-$ github2twitter --help
-$ github2twitter --version
-```
-
-
-
-
-## Documentation
-
-_(Coming soon)_
-
-
-## Examples
-
-_(Coming soon)_
-
-
-## Contributing
-
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
+- `GITHUB_USERNAME`
+- `TWITTER_CONSUMER_KEY`
+- `TWITTER_CONSUMER_SECRET`
+- `TWITTER_ACCESS_TOKEN`
+- `TWITTER_ACCESS_TOKEN_SECRET`
 
 
 ## License
 
-Copyright (c) 2014 Tri Nguyen  
+Copyright (c) 2014 Tri Nguyen
 Licensed under the MIT license.
