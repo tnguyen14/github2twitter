@@ -1,0 +1,1 @@
+web: node lib/github2twitter.js
