@@ -6,6 +6,7 @@ The main entry file `lib/github2twitter.js` can be scheduled by a cron job to ru
 
 ### Environment Variables needed to run
 
+- `MONGOHQ_URL`
 - `GITHUB_USERNAME`
 - `TWITTER_CONSUMER_KEY`
 - `TWITTER_CONSUMER_SECRET`
