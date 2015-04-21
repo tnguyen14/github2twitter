@@ -1,1 +1,1 @@
-web: node lib/github2twitter.js
+web: node lib/server.js
