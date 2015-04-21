@@ -1,6 +1,6 @@
 {
   "name": "github2twitter",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "lib/github2twitter.js",
   "description": "bot to publish github notifications to twitter",
   "homepage": "http://tridnguyen.com",
