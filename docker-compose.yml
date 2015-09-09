@@ -1,0 +1,17 @@
+ledge:
+  build: .
+  links:
+   - db:mongodb
+  environment:
+   - GITHUB_USERNAME
+   - GITHUB_TOKEN
+   - TWITTER_CONSUMER_SECRET
+   - TWITTER_CONSUMER_SECRET
+   - TWITTER_ACCESS_TOKEN
+   - TWITTER_ACCESS_TOKEN_SECRET
+   - TWITTER_STAGGER
+
+db:
+  image: mongo
+  volumes:
+   - ./data/db:/data/db
