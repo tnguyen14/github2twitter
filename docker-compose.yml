@@ -6,7 +6,7 @@ app:
   environment:
     PORT: 3000
   ports:
-    14010:3000
+    - "14010:3000"
 
 db:
   image: mongo
