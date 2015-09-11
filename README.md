@@ -28,6 +28,19 @@ If a `GITHUB_TOKEN` env variable is set, the app will authorize with Github's AP
 - `TWITTER_ACCESS_TOKEN_SECRET`
 - `TWITTER_STAGGER` (optional, default to 60000 (1 minute))
 
+These should be declared in a `.env` file.
+
+Sample `.env` file:
+
+```
+GITHUB_TOKEN=632ad16ec20ddssaf7436d2daffds9da8a14f965c
+GITHUB_USERNAME=tnguyen14
+TWITTER_ACCESS_TOKEN=26dfad503-hg7A8CwVHdfdafeU1CWSdfyAOWhAUp
+TWITTER_ACCESS_TOKEN_SECRET=dfddsfadfsdf342432413eadsM3Q3LbdfafhnZadfesM
+TWITTER_CONSUMER_KEY=oTtYUU30adFdDtmJjrOgwj6Q
+TWITTER_CONSUMER_SECRET=RkAw4Zx8Dadfad34DDDA3xzMu19gBCddKQvM5AUU2J3zSm8
+```
+
 ## License
 
 Copyright (c) 2015 Tri Nguyen
