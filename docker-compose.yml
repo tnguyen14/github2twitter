@@ -10,5 +10,3 @@ app:
 
 db:
   image: mongo
-  volumes:
-    - ./data/db:/data/db
