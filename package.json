@@ -36,10 +36,10 @@
     "dotenv": "^2.0.0",
     "handlebars": "^4.0.5",
     "level": "^1.4.0",
+    "level-promise": "^2.1.0",
     "moment-timezone": "^0.5.2",
     "promise": "^7.1.1",
     "request-promise": "^2.0.1",
-    "then-levelup": "^1.0.1",
     "twit": "^2.2.3"
   }
 }
