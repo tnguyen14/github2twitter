@@ -2,7 +2,6 @@ app:
   build: .
   links:
     - db:mongodb
-  env_file: .env
   environment:
     PORT: 3000
   ports:
