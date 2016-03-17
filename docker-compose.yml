@@ -1,11 +1,9 @@
-app:
-  build: .
-  links:
-    - db:mongodb
-  environment:
-    PORT: 3000
-  ports:
-    - "14010:3000"
+version: '2'
+services:
+  app:
+    build: .
+    ports:
+     - "14010:3000"
+    volumes:
+     - ./data:/src/data
 
-db:
-  image: mongo
