@@ -1,5 +1,7 @@
 # github2twitter [![js-happiness-style](https://img.shields.io/badge/code%20style-happiness-brightgreen.svg?style=flat-square)](https://github.com/JedWatson/happiness)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tnguyen14/github2twitter.svg)](https://greenkeeper.io/)
+
 > publish github notifications to twitter
 
 ![GH2TW Logo](https://cdn.rawgit.com/tnguyen14/github2twitter/master/logo.svg 'GH2TW Logo')
